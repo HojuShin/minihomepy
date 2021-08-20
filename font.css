@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+/* 프로필 폰트*/
+.profile-font {
+    font-family: 'Hi Melody', cursive;
+    font-size: 18px;
+  }
+
+      /*업데이트 뉴스*/
+.photo{
+    background-color: indianred;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+  }
+  
+  .board{
+    background-color: rgb(96, 151, 202);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+   }
