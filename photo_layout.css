@@ -1,23 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 
-.menu-photo {
-    text-align:center;
-    width: 550px;
-    height:450px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    justify-content: center;
+.font-photo-title {
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
+.font-photo-profile {
+    font-family: 'Poor Story', cursive;
+    
+    text-align: center;
+}
+
+
+.content-box {
+    position: relative;
+  }
+  
+  /* 스크롤이 적용될 수 있도록 사이즈 지정 */
+.scroll-box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+  
+.photo-box {
+    margin-bottom: 2rem;
+}
+  
 .photo-title {
-    background-color: rgb(214, 205, 205);
-
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-
+    height: 2rem;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 15px;
 }
-
-.photo-font {
-    font-family: 'Gaegu', cursive;
+  
+.photo-contents {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+.photo-date {
+    font-size: 0.7rem;
+}
+  
+.photo-image {
+    margin-bottom: 1rem;
+}
+  
+.photo-image > img {
+    max-width: 100%;
+}
+  
+.photo-description {
+   font-size: 15px;
 }
