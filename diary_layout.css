@@ -104,3 +104,8 @@
     margin-right: 0.5rem;
 
 }
+
+/* 비밀 일기 클릭*/
+#secret-box {
+    display: none;
+}
