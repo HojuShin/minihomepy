@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+
+.font-visitors-title {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.font-visitors-profile {
+    font-family: 'Poor Story', cursive;
+    
+}
+
+
+.content-box {
+    position: relative;
+  }
+  
+  /* 스크롤이 적용될 수 있도록 사이즈 지정 */
+.scroll-box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+  
+.visitors-box {
+    margin-bottom: 2rem;
+}
+  
+.visitors-title {
+    height: 2rem;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 15px;
+}
+  
+.visitors-contents {
+    padding: 1rem;
+    display: flex;
+    vertical-align:middle; /*사진 글자 가운데 정렬*/
+}
+  
+.visitors-date {
+    font-size: 0.7rem;
+}
+  
+.visitors-image {
+    margin-bottom: 1rem;
+
+}
+  
+.visitors-image > img {
+    width: 80%;
+    height: 80%;
+
+
+}
+  
+.visitors-description {
+   font-size: 15px;
+}
