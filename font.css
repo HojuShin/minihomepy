@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 
 .font-title {
   font-family: 'Do Hyeon', sans-serif;
@@ -9,7 +12,8 @@
 }
 
 .font-menu {
-  font-family: 'Gaegu', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
 }
 
 .font-today {

@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 .font-visitors-title {
     font-family: 'Nanum Gothic Coding', monospace;
 }
 
-.font-visitors-profile {
-    font-family: 'Poor Story', cursive;
-    
+.font-visitors-contents {
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
+
+
+
+
 
 
 .content-box {
@@ -55,8 +58,8 @@
 }
   
 .visitors-image > img {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 
 
 }
